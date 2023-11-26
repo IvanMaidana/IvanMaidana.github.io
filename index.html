@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>curriculum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio Ivan Maidana</title>
 </head>
+
 <body>
-    
+
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Ivan Maidana da Silveira</h2>
+            <img id="bio-image" src="./img/foto.jpg" alt="profile picture" id="photo">
+            <p>Hi, my name is Ivan Maidana da Silveira I'm a <span class="highlight">Programmer</span></p>
+            <p id="welcome-text">Welcome</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon> <a href="mailto:imadana30@gmail.com">imadana30@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h id="name">Ivan Maidana da Silveira</h1>
+                <p id="title"><span class="highlight">Computer Science</span></p>
+                <p class="description">I'm a computer science student, I love programming</p>
+                <p class="description">I'm currently delving deeper into the front end area, I study every day to become
+                    better and better and
+                    write higher quality codes</p>
+                <a href="#" id="btn-projects"> <ion-icon name="share-social-outline"></ion-icon><span>See
+                        Projects</span></a>
+
+                <h2 id="skills-section-title">My Skills</h2>
+                <p class="description">Discover the technologies I master:</p>
+                <div id="skills-container">
+                    <div class="skills-box">
+                        <p class="skills-title">Front-end</p>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Databases</p>
+                        <i class="devicon-mysql-plain colored"></i>
+                        <i class="devicon-sqlite-plain colored"></i>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
